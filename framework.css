@@ -1,0 +1,295 @@
+/* ==========================================================================
+   Part 1: Normalize display, extracts from normalisze.css 
+   Part 2: Custom reusable styles
+   ========================================================================== */
+
+/* ==========================================================================
+   PART 1
+   ========================================================================== */
+/* ===================================
+   Base
+   =================================== */
+
+/**
+ * 1. Correct text resizing oddly in older browsers body `font-size` is set using
+ *    `em` units.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+	font-size: 100%; /* 1 */
+	-ms-text-size-adjust: 100%; /* 2 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Address margins handled incorrectly.
+ */
+
+body {
+	margin: 0;
+}
+
+/* ===================================
+   Links
+   =================================== */
+
+/**
+ * Address `outline` inconsistency between browsers.
+ */
+
+a:focus {
+	outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+	outline: 0;
+}
+
+/* ===================================
+   Typography
+   =================================== */
+
+/**
+ * Address style set to `bolder`.
+ */
+
+b,
+strong {
+	font-weight: bold;
+}
+
+/**
+ * Address margins set differently.
+ */
+
+p {
+	margin: 1em 0;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+	font-size: 80%;
+}
+
+/* ===================================
+   Lists
+   =================================== */
+
+/**
+ * Address margins set differently.
+ */
+
+dl,
+menu,
+ol,
+ul {
+	margin: 1em 0;
+}
+
+/**
+ * Address paddings set differently.
+ */
+
+menu,
+ol,
+ul {
+	padding: 0 0 0 40px;
+}
+
+/**
+ * Correct list images handled incorrectly.
+ */
+
+nav ul,
+nav ol {
+	list-style: none;
+	list-style-image: none;
+}
+
+/* ===================================
+   Embedded content
+   =================================== */
+
+/**
+ * 1. Remove border when inside `a` element.
+ * 2. Improve image quality when scaled.
+ */
+
+img {
+	border: 0; /* 1 */
+	-ms-interpolation-mode: bicubic; /* 2 */
+}
+
+/* ===================================
+   Forms
+   =================================== */
+
+/**
+ * Reset margin.
+ */
+
+form {
+	margin: 0;
+}
+
+/**
+ * 1. Correct font size not being inherited in all browsers.
+ * 2. Address margins set differently.
+ * 3. Improve appearance and consistency in all browsers.
+ */
+
+button,
+input,
+select {
+	font-size: 100%; /* 1 */
+	margin: 0; /* 2 */
+	vertical-align: baseline; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+	cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+/* ==========================================================================
+   PART 2
+   ========================================================================== */
+/* ===================================
+   Base styles: opinionated defaults
+   =================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+	color: #222;
+}
+
+html {
+	font-size: 100%;
+	line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+::selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers
+ */
+
+audio,
+canvas,
+img,
+video {
+	vertical-align: middle;
+}
+
+/* ===================================
+   Helper Classes
+   =================================== */
+
+/*
+ * Hide from both screenreaders and browsers
+ */
+
+.hidden {
+	display: none !important;
+	visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have available for screenreaders
+ */
+
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
+}
+
+/*
+ * Word Break for the likes of email fields
+ */
+
+.word-break {
+	white-space: pre-wrap;
+	word-break: break-all;
+	word-break: break-word;
+}
+
+/*
+ * Force text to wrap when necessary, for extra long strings that break layout
+ */
+
+.wrap-text {
+	white-space: normal !important;
+}
+
+/* ===================================
+   Layout
+   =================================== */
+
+.constraint {
+	max-width: 1024px;
+	width: 90%;
+	margin: 0 auto;
+}

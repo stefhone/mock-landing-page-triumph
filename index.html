@@ -1,0 +1,381 @@
+<html lang="en">
+	<head>
+		<!-- Meta -->
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="description"
+			content="Explore Triumph and Your Products from Company Name with best in class features and testimonials. Take the next step and get in touch with us today."
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="robots" content="noindex" />
+		<!-- Title -->
+		<title>Company Name | Your Products - Triumph</title>
+		<!-- CSS -->
+		<link rel="stylesheet" href="framework.css" />
+		<link rel="stylesheet" href="triumph.css" />
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="assets/images/favicon-48x48.png" sizes="48x48" />
+		<link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+		<link rel="shortcut icon" href="assets/images/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="Triumph" />
+		<link rel="manifest" href="assets/images/site.webmanifest" />
+
+		<style>
+			.hero {
+				position: relative;
+				overflow: hidden;
+			}
+
+			.hero__banner-outer::after {
+				background-image: radial-gradient(50% 50%, #2a2a2a 50%, rgba(34, 34, 34, 0) 100%);
+				position: absolute;
+				display: block;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				opacity: 0.6;
+				z-index: 5;
+				content: '';
+			}
+
+			.hero__banner {
+				background: url('assets/images/hero-banner-triumph.jpg') no-repeat center center;
+				background-size: cover;
+				height: 28.75rem;
+			}
+
+			/* WebP support */
+			@supports (background-image: url('assets/images/hero-banner-triumph.webp')) {
+				.hero__banner {
+					background-image: url('assets/images/hero-banner-triumph.webp');
+				}
+			}
+
+			.hero__body {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				z-index: 10;
+			}
+
+			.hero__body h1 {
+				font-size: 2.25em;
+				line-height: 1.375;
+				letter-spacing: 0.02em;
+				color: #fff;
+				margin-bottom: 1.5625rem;
+			}
+
+			.hero__body p {
+				color: #fff;
+				font-size: 1.125em;
+				margin: 0;
+				letter-spacing: 0.03125rem;
+				line-height: 1.375rem;
+				position: relative;
+				padding-bottom: 0.9375rem;
+				margin-bottom: 1.5625rem;
+			}
+
+			p.underline:after {
+				position: absolute;
+				height: 0.125rem;
+				width: 2.5rem;
+				top: 100%;
+				left: 50%;
+				-webkit-transform: translateX(-50%);
+				-ms-transform: translateX(-50%);
+				transform: translateX(-50%);
+				content: '';
+			}
+
+			h1.underline:after {
+				position: absolute;
+				height: 0.1875rem;
+				width: 5rem;
+				top: 100%;
+				left: 50%;
+				-webkit-transform: translateX(-50%);
+				-ms-transform: translateX(-50%);
+				transform: translateX(-50%);
+				content: '';
+			}
+
+			.underline::after {
+				background: #cd192d;
+			}
+
+			@media (min-width: 37.5em) {
+				.hero__banner {
+					height: 37rem;
+				}
+			}
+
+			@media (min-width: 48em) {
+				.hero__body h1 {
+					font-size: 3.75rem;
+					line-height: 4.375rem;
+				}
+
+				.hero__body p {
+					margin-bottom: 2.1875rem;
+				}
+			}
+
+			@media (min-width: 85.375em) {
+				.hero__body h1 {
+					font-size: 5em;
+					line-height: 1.125;
+				}
+
+				.hero__banner {
+					background-size: 100rem;
+				}
+			}
+		</style>
+	</head>
+
+	<body id="top">
+		<header role="banner">
+			<div class="constraint flex-container">
+				<div class="flex-item">
+					<a href="#">
+						<img src="assets/images/logo-triumph.svg" class="logo-triumph" alt="Triumph logo" title="Triumph logo" />
+					</a>
+				</div>
+
+				<div class="flex-item">
+					<a href="#" target="_blank" aria-label="Visit Logoipsum website">
+						<img src="assets/images/logo-logoipsum.svg" class="logo-logoipsum" alt="Logoipsum logo" />
+					</a>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero">
+				<div class="hero__banner-outer align-center">
+					<div class="hero__body constraint">
+						<p class="underline">
+							Adipisci quod iusto voluptatibus quo doloribus ducimus tempora totam aspernatur dolor sit amet
+						</p>
+
+						<h1>YOUR PRODUCT</h1>
+					</div>
+
+					<div class="hero__banner"></div>
+				</div>
+			</section>
+
+			<section class="white-bg">
+				<div class="constraint testimonial-content-block align-center">
+					<h2 class="align-center">Triumph Testimonial</h2>
+
+					<div class="media-container">
+						<div class="youtube-player" data-id="aRSidjL9dyA"></div>
+					</div>
+				</div>
+			</section>
+
+			<section class="constraint want-content-block flex-container">
+				<div class="flex-item">
+					<div class="main-body">
+						<h2>Do you want more sales and happier customers?</h2>
+
+						<p class="no-margin">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga rerum sapiente illum perferendis animi
+							excepturi! <br /><br />Quo dignissimos doloribus perferendis aperiam delectus eaque quam quasi ab id aspernatur!
+							Maiores, facere. Similique officia eaque, repudiandae saepe?
+						</p>
+
+						<a class="button-cta" href="#next-step" aria-label="Take the next step and register your interest in Your Products"
+							>Get In Touch</a
+						>
+					</div>
+				</div>
+
+				<div class="flex-item">
+					<picture>
+						<source srcset="assets/images/banner-triumph-face.webp" type="image/webp" />
+						<source srcset="assets/images/banner-triumph-face.jpg" type="image/jpeg" />
+						<img
+							src="assets/images/banner-triumph-face.jpg"
+							loading="lazy"
+							class="triumph-imgs"
+							alt="Close up view of male Triumph rider wearing helmet"
+						/>
+					</picture>
+				</div>
+			</section>
+
+			<section class="constraint why-content-block flex-container">
+				<div class="flex-item">
+					<picture>
+						<source srcset="assets/images/banner-triumph-seat.webp" type="image/webp" />
+						<source srcset="assets/images/banner-triumph-seat.jpg" type="image/jpeg" />
+						<img
+							src="assets/images/banner-triumph-seat.jpg"
+							loading="lazy"
+							class="triumph-imgs"
+							alt="Close up view of Triumph motorcyle brown leather seat"
+						/>
+					</picture>
+				</div>
+
+				<div class="flex-item">
+					<div class="main-body">
+						<h2>Lorem ipsum dolor</h2>
+
+						<p class="no-top">Delectus eaque quam quasi:</p>
+
+						<ul>
+							<li><p class="no-top">Qui ab culpa iure consequuntur. In laboriosam reprehenderit dolore.</p></li>
+							<li><p class="no-top">Dicta eaque eos dolor optio cum voluptas cupiditate fugiat laborum.</p></li>
+							<li><p class="no-top">Lorem ipsum dolor sit amet consectetur, adipisicing elit asperiores laborum.</p></li>
+							<li><p class="no-margin">Numquam, cumque asperiores laborum, cupiditate laboriosam dolor.</p></li>
+						</ul>
+
+						<a class="button-cta" href="#next-step" aria-label="Take the next step and register your interest in Your Products"
+							>Get In Touch</a
+						>
+					</div>
+				</div>
+			</section>
+
+			<section class="white-bg">
+				<a name="next-step"></a>
+				<div class="constraint form-content-block flex-container">
+					<h2 class="no-bottom align-center">Get in Touch Today</h2>
+
+					<p class="align-center">Complete the short form below and aut hic commodi quod enim necessitatibus soluta debitis.</p>
+
+					<!-- FORM -->
+					<div class="form-container">
+						<form id="simpleForm" class="grid">
+							<div class="grid__item grid__w-1-2-large-up">
+								<label for="firstName" class="reqMark">First Name</label>
+								<input type="text" id="firstName" name="firstName" required title="First Name" />
+							</div>
+
+							<div class="grid__item grid__w-1-2-large-up">
+								<label for="lastName" class="reqMark">Last Name</label>
+								<input type="text" id="lastName" name="lastName" required title="Last Name" aria-required="true" />
+							</div>
+
+							<div class="grid__item grid__w-1-2-large-up">
+								<label for="phone" class="reqMark">Phone</label>
+								<input type="tel" id="phone" name="phone" required="" title="Phone" aria-required="true" />
+							</div>
+
+							<div class="grid__item grid__w-1-2-large-up">
+								<label for="email" class="reqMark">Email</label>
+								<input
+									type="email"
+									id="email"
+									name="email"
+									required
+									title="Email"
+									class="validate-email"
+									aria-required="true"
+								/>
+							</div>
+							<div class="grid__item grid__w-1-1-large-up">
+								<label for="dealership" class="reqMark">Dealership</label>
+								<input type="text" id="dealership" name="dealership" required title="Dealership" aria-required="true" />
+							</div>
+
+							<div class="align-center">
+								<button type="submit" class="button-cta" aria-label="Submit form to register your interest">Submit</button>
+							</div>
+						</form>
+						<div class="confirmation align-center" id="confirmationMessage" aria-live="polite">
+							Thank you! Your form has been submitted.
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="black-bg">
+				<h2 class="constraint customers-quotes-title no-bottom align-center">What your customers think...</h2>
+
+				<div class="constraint customer-quotes-content-block flex-container">
+					<div class="flex-item">
+						<div class="main-body">
+							<img
+								src="assets/images/icon-your-product-a.svg"
+								loading="lazy"
+								class="icon-your-products"
+								alt="Your Product A icon"
+							/>
+
+							<h3>Your Product A</h3>
+
+							<ul>
+								<li><p class="no-margin">"Lorem ipsum dolor, sit amet consectetur adipisicing elit."</p></li>
+								<li><p class="no-margin">"Pariatur incidunt, aliquam, temporibus dolor hic soluta, delectus."</p></li>
+								<li>
+									<p class="no-margin">"illum recusandae laudantium nostrum atque fugiat accusantium ducimus nihil?"</p>
+								</li>
+								<li><p class="no-margin">"Consequatur ratione veniam eos quaerat."</p></li>
+								<li><p class="no-margin">"Sapiente eaque est distinctio quos."</p></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="flex-item">
+						<div class="main-body">
+							<img
+								src="assets/images/icon-your-product-b.svg"
+								loading="lazy"
+								class="icon-your-products"
+								alt="Your Product B icon"
+							/>
+
+							<h3>Your Product B</h3>
+
+							<ul>
+								<li><p class="no-margin">"Tempore accusantium assumenda soluta blanditiis."</p></li>
+								<li><p class="no-margin">"Optio culpa cupiditate ab ratione omnis voluptates!"</p></li>
+								<li><p class="no-margin">"Magnam cumque dolores aut eveniet."</p></li>
+								<li><p class="no-margin">"Commodi sequi a ipsam, optio veniam."</p></li>
+								<li><p class="no-margin">"Aspernatur, dicta accusantium deleniti harum magni vel."</p></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="light-grey-bg">
+				<div class="constraint next-steps-content-block flex-container">
+					<h2 class="no-bottom align-center">Want to find out more?</h2>
+
+					<p class="align-center no-bottom">
+						Complete the <a href="#next-step">short form above</a> and illo ipsa recusandae, sit labore doloremque adipisicing.
+					</p>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="constraint">
+				<p>
+					Company Name, 123 ABC Street, London, LA12 1AB<br />
+					01234567890<br />
+					<a
+						href="mailto:help@company-name.com?Subject=Company%20Name%20-%20Triumph%20Landing%20Page"
+						aria-label="Send an email to help@company-name.com"
+						target="_top"
+					>
+						help@company-name.com</a
+					>
+				</p>
+			</div>
+		</footer>
+
+		<script src="main.js"></script>
+	</body>
+</html>
