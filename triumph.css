@@ -420,15 +420,11 @@ a.button:focus {
 
 /* FORM */
 .form-content-block {
-	padding: 2.8125rem 1.25rem 4.375em;
-}
-
-.form-content-block.constraint {
-	width: 100%;
+	padding: 2.8125rem 0 4.375rem;
 }
 
 .form-container {
-	width: auto;
+	width: 100%;
 	margin: 2rem auto 0 auto;
 }
 
